@@ -135,7 +135,7 @@ class IncomingWebHook:
         """A helped method for creating attachemnts for messages.
         """
 
-        return {"title": title, "title_link": title_link, "pretext": pretext, "text": text, "fallback": fallback, "author_name": author_name, "author_link": author_link, "author_icon": author_icon, "image_url": image_url, "thumb_url": thumb_url, "color": color, "mrkdwn"=mrkdwn, "mrkdwn_in": mrkdwn_in, "fields": fields} 
+        return {"title": title, "title_link": title_link, "pretext": pretext, "text": text, "fallback": fallback, "author_name": author_name, "author_link": author_link, "author_icon": author_icon, "image_url": image_url, "thumb_url": thumb_url, "color": color, "mrkdwn": mrkdwn, "mrkdwn_in": mrkdwn_in, "fields": fields} 
 
 
 class SlashCommand(object):
